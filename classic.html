@@ -13,7 +13,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-<body style="padding: 0 50px 25px;">
+<body style="padding: 0 50px 25px; position: relative;">
   <h1>Classic Sort Tool <small>(CAQ, CCQ, CPQ, PQS)</small></h1>
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
@@ -28,6 +28,9 @@
     <textarea class="form-control" id="exampleOutput" rows="8"></textarea>
   </div>
   <button type="submit" id="compilebtn" class="btn btn-default">Compile!</button>
+  <div style="position: absolute; left: 0; right: 0; bottom: 0;">
+    <p class="text-center text-muted">Created by <a href="https://github.com/chrisrng/qsort-tool" target="_blank">Chris Ng</a></p>
+  </div>
 </body>
 
 <script>

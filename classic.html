@@ -94,7 +94,7 @@
 
   function buildLists(lists) {
     const listIdToName = lists.reduce((listObj, currList) => {
-      if (currList.name !== 'Unsorted') {
+      if (currList.name !== 'Unsorted' && currList.closed !== true) {
         listObj[currList.id] = currList.name;
       }
       return listObj
